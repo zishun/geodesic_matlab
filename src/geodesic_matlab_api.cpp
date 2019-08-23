@@ -52,7 +52,7 @@ GEODESIC_DLL_IMPORT long distance_and_source(long algorithm_id,		//quickly find 
 
 GEODESIC_DLL_IMPORT long distance_and_source_for_all_vertices(long algorithm_id,	//same idea as in the previous function
 															  double** distances,	//list distance/source info for all vertices of the mesh
-															  long** sources)
+															  double** sources)
 {
 
 	geodesic::GeodesicAlgorithmBase* algorithm = algorithms[algorithm_id].get();
@@ -61,8 +61,8 @@ GEODESIC_DLL_IMPORT long distance_and_source_for_all_vertices(long algorithm_id,
 	output_buffer.allocate<double>(mesh->vertices().size());	//allocate space for distances
 	*distances = output_buffer.get<double>();
 
-	output_buffer1.allocate<long>(mesh->vertices().size());		//allocate space for sources
-	*sources = output_buffer1.get<long>();
+	output_buffer1.allocate<double>(mesh->vertices().size());		//allocate space for sources
+	*sources = output_buffer1.get<double>();
 
 
 	for(std::size_t i = 0; i < mesh->vertices().size(); ++i)
