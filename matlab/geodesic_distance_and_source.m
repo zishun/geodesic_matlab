@@ -14,7 +14,8 @@ if nargin == 2
     source_id = source_id + 1;
 else                                    %return distances and sources for all vertices
     tmp = libpointer('doublePtrPtr');
-    tmp1 = libpointer('int32PtrPtr');
+    %tmp1 = libpointer('int32PtrPtr');
+    tmp1 = libpointer('doublePtrPtr');
     
     [num_vertices, d, s] = calllib(geodesic_library, 'distance_and_source_for_all_vertices', algorithm.id, tmp, tmp1);
     

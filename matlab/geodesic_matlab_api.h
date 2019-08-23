@@ -41,7 +41,7 @@ GEODESIC_DLL_IMPORT long distance_and_source(long algorithm_id,		//quickly find 
 
 GEODESIC_DLL_IMPORT long distance_and_source_for_all_vertices(long algorithm_id,	//same idea as in the previous function
 															  double** distances,	//list distance/source info for all vertices of the mesh
-															  long** sources);
+															  double** sources);
 
 #ifdef __cplusplus
 }
