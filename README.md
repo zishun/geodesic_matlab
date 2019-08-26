@@ -17,7 +17,7 @@ For algorithm details, please refer to [readme](./src/).
 1. Build projects ```example0``` and ```example1``` in ```geodesic.sln```.
 
 #### MATLAB API functions 
-![](https://img.shields.io/badge/build-passing-brightgreen). 
+![](https://img.shields.io/badge/build-passing-brightgreen)
 
 <!---Tested on Windows 10 + MSVC 2017 + MATLAB R2018a. -->
 
