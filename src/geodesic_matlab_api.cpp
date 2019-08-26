@@ -1,4 +1,6 @@
+#ifdef _WIN32
 #define GEODESIC_DLL_IMPORT __declspec(dllexport)
+#endif
 
 //#include <boost\shared_ptr.hpp>
 

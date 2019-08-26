@@ -9,6 +9,7 @@
 #include <cmath>
 #include <assert.h>
 #include <set>
+#include <cstring>
 
 namespace geodesic{
 
@@ -753,14 +754,14 @@ inline void GeodesicAlgorithmExact::update_list_and_queue(list_pointer list,
 		}
 
 		*p = m_memory_allocator.allocate();
-		memcpy(*p,first,sizeof(Interval));
+		std::memcpy(*p,first,sizeof(Interval));
 		m_queue.insert(*p);
 
 		if(num_candidates == 2)
 		{
 			p = &(*p)->next();
 			*p = m_memory_allocator.allocate();
-			memcpy(*p,second,sizeof(Interval));
+			std::memcpy(*p,second,sizeof(Interval));
 			m_queue.insert(*p);
 		}
 
@@ -827,7 +828,7 @@ inline void GeodesicAlgorithmExact::update_list_and_queue(list_pointer list,
 					interval_pointer next = p->next();
 					erase_from_queue(p);
 
-					memcpy(previous,q,sizeof(Interval));
+					std::memcpy(previous,q,sizeof(Interval));
 
 					previous->start() = start[0];
 					previous->next() = next;
@@ -870,7 +871,7 @@ inline void GeodesicAlgorithmExact::update_list_and_queue(list_pointer list,
 			else				//p becomes "previous"
 			{
 				i_new[0] = p;
-				memcpy(p,q,sizeof(Interval));
+				std::memcpy(p,q,sizeof(Interval));
 
 				p->next() = i_new[1];
 				p->start() = start[0];
@@ -884,11 +885,11 @@ inline void GeodesicAlgorithmExact::update_list_and_queue(list_pointer list,
 
 				if(map[j] == OLD)	
 				{
-					memcpy(current_interval,&swap,sizeof(Interval));
+					std::memcpy(current_interval,&swap,sizeof(Interval));
 				}
 				else
 				{
-					memcpy(current_interval,q,sizeof(Interval));
+					std::memcpy(current_interval,q,sizeof(Interval));
 				}
 				
 				if(j == N-1)	

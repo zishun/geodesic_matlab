@@ -3,6 +3,7 @@
 
 global geodesic_library;                
 geodesic_library = 'geodesic_debug';      %"release" is faster and "debug" does additional checks
+%geodesic_library = 'geodesic_matlab_api';
 rand('state', 0);                         %comment this statement if you want to produce random mesh every time
 
 N = 300;                                  %number of points in a mesh

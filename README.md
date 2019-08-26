@@ -23,10 +23,28 @@ For algorithm details, please refer to [readme](./src/).
 
 1. Build project ```geodesic``` in ```geodesic.sln```. 
 2. Copy built library ```geodesic.dll``` as ```geodesic_(debug|release).dll``` to the folder ```matlab```.
-3. Run ```example[1-5]```.
+3. Run ```example[1-5]```in Matlab.
 
 ### Linux
-![](https://img.shields.io/badge/build-to_do-yellow)
+#### C++ executable 
+![](https://img.shields.io/badge/build-passing-brightgreen)
+
+```bash
+cd src
+make example0
+./example0.out hedgehog_mesh.txt 3 14
+```
+
+#### MATLAB API functions 
+![](https://img.shields.io/badge/build-passing-brightgreen)
+
+1. Build shared library
+```bash
+cd src
+make debug
+cp ./geodesic_debug.so ../matlab/
+```
+2. Run ```example[1-5]```in Matlab.
 
 ## Known Issues
 
