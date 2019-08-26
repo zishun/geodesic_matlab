@@ -56,4 +56,4 @@ See [Issues](https://github.com/zishun/geodesic_matlab/issues).
 
 ## Related Projects
 
-* [geodesic](https://github.com/mojocorp/geodesic): the same implementation with cross-platform CMakeLists and Python binding.
+* [mojocorp/geodesic](https://github.com/mojocorp/geodesic): the same implementation with cross-platform CMakeLists and Python binding.
