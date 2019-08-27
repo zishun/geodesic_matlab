@@ -56,4 +56,6 @@ See [Issues](https://github.com/zishun/geodesic_matlab/issues).
 
 ## Related Projects
 
+* [libigl/libigl](https://github.com/libigl/libigl/blob/master/include/igl/exact_geodesic.h): a wrapper for the same exact geodesic algorithm implementation, exposing it through an Eigen-based API.
 * [mojocorp/geodesic](https://github.com/mojocorp/geodesic): the same implementation with cross-platform CMakeLists and Python binding.
+
