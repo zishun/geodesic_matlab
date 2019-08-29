@@ -22,7 +22,7 @@ For algorithm details, please refer to [readme](./src/).
 <!---Tested on Windows 10 + MSVC 2017 + MATLAB R2018a. -->
 
 1. Build project ```geodesic``` in ```geodesic.sln```. 
-2. Copy built library ```geodesic.dll``` as ```geodesic_(debug|release).dll``` to the folder ```matlab```.
+2. Copy built library ```geodesic_(debug|release).dll``` to the folder ```matlab```.
 3. Run ```example[1-5]```in Matlab.
 
 ### Linux
