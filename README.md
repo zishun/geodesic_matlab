@@ -4,7 +4,7 @@ This is an implementation of geodesic (shortest path) algorithm for triangular m
 
 The code and compiled Windows dynamic-link libraries are originally released on 2008, which are quite old and do not work on modern PCs. The maintainer of this repository modified the code to make it easy to use, following Fritz and Dean Mark's [comments](https://mathworks.com/matlabcentral/fileexchange/18168-exact-geodesic-for-triangular-meshes).
 
-For algorithm details, please refer to [readme](./src/).
+For algorithm details, please refer to [readme](./src/#readme).
 
 <img src="https://github.com/zishun/geodesic_matlab/raw/master/example2.png" width="500"/>
 
