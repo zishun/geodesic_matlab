@@ -23,7 +23,7 @@ For algorithm details, please refer to [readme](./src/#readme).
 
 1. Build project ```geodesic``` in ```geodesic.sln```. 
 2. Copy built library ```geodesic_(debug|release).dll``` to the folder ```matlab```.
-3. Run ```example[1-5]```in Matlab.
+3. Run ```example[1-5]``` in Matlab.
 
 ### Linux
 #### C++ executable 
@@ -44,7 +44,7 @@ cd src
 make debug
 cp ./geodesic_debug.so ../matlab/
 ```
-2. Run ```example[1-5]```in Matlab.
+2. Run ```example[1-5]``` in Matlab.
 
 ## Known Issues
 
