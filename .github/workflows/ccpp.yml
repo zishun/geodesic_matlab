@@ -9,13 +9,6 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: cd
-      run: cd src/
-    - name: ls
-      run: ls
     - name: make
-      run: make debug
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+      run: cd src/ && make debug
+    
