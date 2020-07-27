@@ -27,7 +27,7 @@ For algorithm details, please refer to [readme](./src/#readme).
 
 ### Linux
 #### C++ executable 
-![](https://img.shields.io/badge/build-passing-brightgreen)
+![C/C++ CI](https://github.com/zishun/geodesic_matlab/workflows/C/C++%20CI/badge.svg)
 
 ```bash
 cd src
