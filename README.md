@@ -56,8 +56,9 @@ See [Issues](https://github.com/zishun/geodesic_matlab/issues).
 
 ## Related Projects
 
-* [alecjacobson/gptoolbox](https://github.com/alecjacobson/gptoolbox/tree/master/external/exactgeodesic)
-  * a matlab toolbox for geometry processing, including the same exact geodesic algorithm implementation.
-* [libigl/libigl](https://github.com/libigl/libigl/blob/master/include/igl/exact_geodesic.h): a wrapper for the same exact geodesic algorithm implementation, exposing it through an Eigen-based API.
+All projects in this list use the same geodesic algorithm implementation.
+* [alecjacobson/gptoolbox](https://github.com/alecjacobson/gptoolbox/tree/master/external/exactgeodesic): a matlab toolbox for geometry processing.
+* [libigl/libigl](https://github.com/libigl/libigl/blob/master/include/igl/exact_geodesic.h): a wrapper exposed through an Eigen-based API.
   * Python binding of libigl also includes [this function](https://libigl.github.io/libigl-python-bindings/tutorials/#exact-discrete-geodesic-distances).
-* [mojocorp/geodesic](https://github.com/mojocorp/geodesic): the same implementation with cross-platform CMakeLists and Python binding.
+* [MeshUtility](https://github.com/zishun/MeshUtility): Python binding, including an approximated method of edge-sourced geodesic distance field computation.
+* [mojocorp/geodesic](https://github.com/mojocorp/geodesic): with cross-platform CMakeLists and Python binding.
