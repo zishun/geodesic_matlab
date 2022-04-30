@@ -61,4 +61,3 @@ All projects in this list use the same geodesic algorithm implementation.
 * [libigl/libigl](https://github.com/libigl/libigl/blob/master/include/igl/exact_geodesic.h): a wrapper exposed through an Eigen-based API.
   * Python binding of libigl also includes [this function](https://libigl.github.io/libigl-python-bindings/tutorials/#exact-discrete-geodesic-distances).
 * [MeshUtility](https://github.com/zishun/MeshUtility): Python binding, including an approximated method of edge-sourced geodesic distance field computation.
-* [mojocorp/geodesic](https://github.com/mojocorp/geodesic): with cross-platform CMakeLists and Python binding.
